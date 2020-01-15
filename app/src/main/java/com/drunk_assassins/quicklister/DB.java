@@ -133,7 +133,31 @@ public class DB {
     };
 
     public static String[][] SAFETY = {
-            
+            {"Roll no: 01", "Name: Nasir Tareen", "Email: Tareen01@gmail.com", "Phone no: (591) 492-1799", "Gender: Male"},
+            {"Roll no: 02", "Name: Ashaz Baig", "Email: Baig02@gmail.com", "Phone no: (450) 957-0041", "Gender: Female"},
+            {"Roll no: 03", "Name: Hameed Mir", "Email: Mir03@gmail.com", "Phone no: (378) 733-3915", "Gender: Male"},
+            {"Roll no: 04", "Name: Suha Zubairi", "Email: Zubairi04@gmail.com", "Phone no: (928) 892-3207", "Gender: Female"},
+            {"Roll no: 05", "Name: Suzan Kumbhar", "Email: Kumbhar05@gmail.com", "Phone no: (716) 431-1616", "Gender: Female"},
+            {"Roll no: 06", "Name: Liaqat Zubairi", "Email: Zubairi06@gmail.com", "Phone no: (852) 401-3504", "Gender: Male"},
+            {"Roll no: 07", "Name: Moomal Tani", "Email: Tani07@gmail.com", "Phone no: (792) 227-9208", "Gender: Female"},
+            {"Roll no: 08", "Name: Ibtisam Warraich", "Email: Warraich08@gmail.com", "Phone no: (469) 500-0371", "Gender: Female"},
+            {"Roll no: 09", "Name: Narmin Memon", "Email: Memon09@gmail.com", "Phone no: (452) 368-2776", "Gender: Female"},
+            {"Roll no: 10", "Name: Mubasha Bukhari", "Email: Bukhari10@gmail.com", "Phone no: (651) 655-1958", "Gender: Female"},
+            {"Roll no: 11", "Name: Faariha Mir", "Email: Mir11@gmail.com", "Phone no: (440) 549-5173", "Gender: Female"},
+            {"Roll no: 12", "Name: Hasal Junejo", "Email: Junejo12@gmail.com", "Phone no: (227) 520-7926", "Gender: Male"},
+            {"Roll no: 13", "Name: Saliha Davi", "Email: Davi13@gmail.com", "Phone no: (270) 890-2561", "Gender: Female"},
+            {"Roll no: 14", "Name: Shahina Patel", "Email: Patel14@gmail.com", "Phone no: (657) 599-1137", "Gender: Female"},
+            {"Roll no: 15", "Name: Farida Buriro", "Email: Buriro15@gmail.com", "Phone no: (513) 984-2901", "Gender: Female"},
+            {"Roll no: 16", "Name: Afzal Khokhar", "Email: Khokhar16@gmail.com", "Phone no: (580) 750-1937", "Gender: Male"},
+            {"Roll no: 17", "Name: Nazish Awan", "Email: Awan17@gmail.com", "Phone no: (751) 304-8141", "Gender: Female"},
+            {"Roll no: 18", "Name: Afridi Tareen", "Email: Tareen18@gmail.com", "Phone no: (948) 465-7876", "Gender: Male"},
+            {"Roll no: 19", "Name: Noor Machi", "Email: Machi19@gmail.com", "Phone no: (676) 726-4856", "Gender: Female"},
+            {"Roll no: 20", "Name: Saadi Sherzai", "Email: Sherzai20@gmail.com", "Phone no: (856) 906-7137", "Gender: Male"},
+            {"Roll no: 21", "Name: Qutub Niazi", "Email: Niazi21@gmail.com", "Phone no: (721) 270-1199", "Gender: Male"},
+            {"Roll no: 22", "Name: Altamas Khan", "Email: Khan22@gmail.com", "Phone no: (614) 954-3219", "Gender: Male"},
+            {"Roll no: 23", "Name: Iram Junejo", "Email: Junejo23@gmail.com", "Phone no: (982) 689-8346", "Gender: Female"},
+            {"Roll no: 24", "Name: Nofal Gilani", "Email: Gilani24@gmail.com", "Phone no: (539) 351-3829", "Gender: Male"},
+            {"Roll no: 25", "Name: Naadira Zubairi", "Email: Zubairi25@gmail.com", "Phone no: (989) 425-1683", "Gender: Female"},
     };
 
 }
