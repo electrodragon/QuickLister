@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Quick Lister</string>
+    <string name="static_choose_course_textView">Select Your Course</string>
 </resources>
