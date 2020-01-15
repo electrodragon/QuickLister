@@ -34,7 +34,26 @@ public class DB {
 
 
     public static String[][] CCTV = {
-
+            {"Roll no: 01", "Name: Fahmida Shaikh", "Email: Shaikh10@gmail.com", "Phone no: (443) 403-2380", "Gender: Female"},
+            {"Roll no: 02", "Name: Manan Naqvi", "Email: Naqvi20@gmail.com", "Phone no: (400) 499-2117", "Gender: Male"},
+            {"Roll no: 03", "Name: Sanan Gujjar", "Email: Gujjar30@gmail.com", "Phone no: (727) 528-6702", "Gender: Female"},
+            {"Roll no: 04", "Name: Kassim Usmani", "Email: Usmani40@gmail.com", "Phone no: (721) 813-4242", "Gender: Male"},
+            {"Roll no: 05", "Name: Shira Salehi", "Email: Salehi50@gmail.com", "Phone no: (619) 742-1629", "Gender: Female"},
+            {"Roll no: 06", "Name: Haram Malak", "Email: Malak60@gmail.com", "Phone no: (832) 460-3722", "Gender: Female"},
+            {"Roll no: 07", "Name: Fareeda Khawaja", "Email: Khawaja70@gmail.com", "Phone no: (558) 280-5229", "Gender: Female"},
+            {"Roll no: 08", "Name: Manalm Siddiqui", "Email: Siddiqui80@gmail.com", "Phone no: (429) 554-5222", "Gender: Female"},
+            {"Roll no: 09", "Name: Bethany Burki", "Email: Burki90@gmail.com", "Phone no: (630) 899-1924", "Gender: Female"},
+            {"Roll no: 10", "Name: Yazdan Chaudhry", "Email: Chaudhry01@gmail.com", "Phone no: (602) 604-0318", "Gender: Male"},
+            {"Roll no: 11", "Name: Waiza Hassan", "Email: Hassan11@gmail.com", "Phone no: (944) 580-1754", "Gender: Female"},
+            {"Roll no: 12", "Name: Walia Sial", "Email: Sial21@gmail.com", "Phone no: (490) 993-6529", "Gender: Female"},
+            {"Roll no: 13", "Name: Ilias Khawaja", "Email: Khawaja31@gmail.com", "Phone no: (748) 932-7794", "Gender: Male"},
+            {"Roll no: 14", "Name: Arfa Shahwani", "Email: Shahwani41@gmail.com", "Phone no: (619) 753-0650", "Gender: Female"},
+            {"Roll no: 15", "Name: Yusuf Machi", "Email: Machi51@gmail.com", "Phone no: (822) 494-3883", "Gender: Male"},
+            {"Roll no: 16", "Name: Abasah Taqvi", "Email: Taqvi61@gmail.com", "Phone no: (920) 337-9092", "Gender: Female"},
+            {"Roll no: 17", "Name: Jenna Kumbhar", "Email: Kumbhar71@gmail.com", "Phone no: (827) 856-3351", "Gender: Female"},
+            {"Roll no: 18", "Name: Shireen Malhotra", "Email: Malhotra81@gmail.com", "Phone no: (861) 767-4575", "Gender: Female"},
+            {"Roll no: 19", "Name: Asiya Jogi", "Email: Jogi91@gmail.com", "Phone no: (877) 888-9852", "Gender: Female"},
+            {"Roll no: 20", "Name: Raaheel Saeed", "Email: Saeed02@gmail.com", "Phone no: (655) 323-5590", "Gender: Male"},
     };
 
     public static String[][] GRAPHICS = {
