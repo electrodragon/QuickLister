@@ -2,6 +2,10 @@ package com.drunk_assassins.quicklister;
 
 public class FireMethod {
 
+    /* Start ---------------------------------------------------------------------------------------
+     * Following Methods Returns a 2D Array of UsersData which is Stored DB.java
+     */
+
     public static String[][] fetchArrayFromDB(int position) {
         String[][] tempArray;
 
@@ -20,6 +24,6 @@ public class FireMethod {
         return tempArray;
     }
 
-    
+    /* End fetchArrayFromDB() --------------------------------------------------------------------*/
 
 }
