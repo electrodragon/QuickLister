@@ -1,7 +1,9 @@
 package com.drunk_assassins.quicklister;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -36,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        String[] appPermissions = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
+        ActivityCompat.requestPermissions(this, appPermissions, 1);
 
         final ListView courses_container = findViewById(R.id.courses_container);
 
@@ -153,23 +159,6 @@ public class MainActivity extends AppCompatActivity {
                 share.putExtra(Intent.EXTRA_STREAM, imageUri);
                 startActivity(Intent.createChooser(share, "Select"));
 
-
-//            File outputFile = new File(this.getCacheDir(), "avatar.png");
-//            FileOutputStream outPutStream = new FileOutputStream(outputFile);
-//            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outPutStream);
-//            outPutStream.flush();
-//            outPutStream.close();
-//            outputFile.setReadable(true, false);
-//
-//
-//            String lvTextShareM = roll_no + "\n" + name;
-//
-//            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
-//            /*intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(outputFile));*/
-//            intent.setType("image/*");
-//            intent.putExtra(Intent.EXTRA_TEXT, lvTextShareM);
-//            /*intent.putExtra("sms_body", lvTextShareM);*/
-//            startActivity(Intent.createChooser(intent, "Share using?"));
             } catch (Exception e) {
                 Toast.makeText(this, "Err", Toast.LENGTH_SHORT).show();
                 e.printStackTrace();
