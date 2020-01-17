@@ -143,12 +143,12 @@ public class MainActivity extends AppCompatActivity {
 
                 ByteArrayOutputStream bytes = new ByteArrayOutputStream();
                 Bitmap b = BitmapFactory.decodeResource(getResources(), Integer.parseInt(avatar_img));
-                b.compress(Bitmap.CompressFormat.PNG, 100, bytes);
+                b.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
                 String path = MediaStore.Images.Media.insertImage(getContentResolver(), b, "Title", null);
                 Uri imageUri = Uri.parse(path);
 
                 Intent share = new Intent(Intent.ACTION_SEND);
-                share.setType("*/*");
+                share.setType("image/*");
                 share.putExtra(Intent.EXTRA_TEXT, roll_no + "\n" + name);
                 share.putExtra(Intent.EXTRA_STREAM, imageUri);
                 startActivity(Intent.createChooser(share, "Select"));
