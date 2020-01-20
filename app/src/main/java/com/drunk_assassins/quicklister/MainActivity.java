@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityCompat.requestPermissions(this, appPermissions, 1);
 
         final ListView courses_container = findViewById(R.id.courses_container);
+        courses_container.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 
         /* --------------  SPINNER CREATION START  ---------------------------------------*/
         /////////////////////////////////////////  Following Code Creates a Spinner of Course Names
